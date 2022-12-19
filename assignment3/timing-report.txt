@@ -1,0 +1,12 @@
+The name of the image: rain.jpg
+The width of the image: 400
+The height of the image: 600
+
+
+Reference (pure Python) filter time color2gray: 2.59s (calls=3)
+Timing: numpy color2gray: 0.0121s (speedup=214.81x)
+Timing: numba color2gray: 0.276s (speedup=9.40x)
+
+Reference (pure Python) filter time color2sepia: 5.54s (calls=3)
+Timing: numpy color2sepia: 0.0697s (speedup=79.50x)
+Timing: numba color2sepia: 0.188s (speedup=29.56x)
